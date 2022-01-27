@@ -1,0 +1,26 @@
+---
+title: "Create 2022 Data - Crime"
+author: "Christopher Prener, Ph.D."
+date: '(`r format(Sys.time(), "%B %d, %Y")`)'
+output: 
+  github_document: default
+  html_notebook: default 
+---
+
+## Introduction
+This notebook creates the crime data for the Spring 2022 final projects.
+
+## Dependencies
+This notebook requires:
+
+```{r load-packages}
+# tidystl packages
+library(compstatr)
+
+# tidyverse packages
+library(dplyr)
+library(readr)
+
+# other packages
+library(here)
+```
